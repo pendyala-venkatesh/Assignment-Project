@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>assignment</title>
+    <script src="ass2.js"></script>
+    <style>
+        input{
+            padding: 30px;
+            font-size: 30px;
+            border-width: 5px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+<body id="webpage">
+    <input placeholder="enter color" id="inputbox" oninput="changeColor()">
+    <br><br>
+    <input plaaceholder="enter password" type="password" id="pwd">
+    <br><br>
+    <input type="checkbox" style="width: 50px; height: 50px;" id="check" 
+    onclick="workingWithCheckBox()">
+    <label style="font-size: 30px;">show</label>
+    <br>
+    <hr>
+    <h1>questions and answers:</h1>
+    <hr>
+    <h2>que.which javascript property is used to take input from webpage</h2>
+
+    <input type="radio" name="answer"><label class="text">innerText</label>
+    <br>
+    <input type="radio" name="answer"><label class="text">length</label>
+    <br>
+    <input type="radio" name="answer"><label class="text">value</label>
+    <br>
+    <input type="radio" name="answer"><label class="text">all of the above</label>
+    <br>
+    <h1>answer:<em name="answer"></em></h1>
+    <input type="button" value="submit" onclick="verifyAnswer()">
+</body>
+</body>
+</html>
